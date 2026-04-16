@@ -1,3 +1,3 @@
-typetester.epub
-typetester.kepub.epub
+*.epub
+*.kepub.epub
 *.zip

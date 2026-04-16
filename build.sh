@@ -4,8 +4,8 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-OUT="typetester.epub"
-KEPUB="typetester.kepub.epub"
+OUT="The Delightful Type Tester.epub"
+KEPUB="The Delightful Type Tester.kepub.epub"
 SRC="src"
 
 if [ ! -d "$SRC" ]; then
