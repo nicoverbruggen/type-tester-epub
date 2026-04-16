@@ -26,6 +26,7 @@
     <item id="chapter5"     href="chapter5.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter6"     href="chapter6.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter7"     href="chapter7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter8"     href="chapter8.xhtml" media-type="application/xhtml+xml"/>
     <item id="epilogue"     href="epilogue.xhtml" media-type="application/xhtml+xml"/>
     <item id="css"          href="styles.css"     media-type="text/css"/>
   </manifest>
@@ -39,6 +40,7 @@
     <itemref idref="chapter5"/>
     <itemref idref="chapter6"/>
     <itemref idref="chapter7"/>
+    <itemref idref="chapter8"/>
     <itemref idref="epilogue"/>
   </spine>
   <guide>

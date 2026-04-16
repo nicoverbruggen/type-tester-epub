@@ -37,10 +37,14 @@
       <content src="chapter6.xhtml"/>
     </navPoint>
     <navPoint id="nav7" playOrder="8">
-      <navLabel><text>Chapter Seven &#8212; The Window</text></navLabel>
+      <navLabel><text>Chapter Seven &#8212; A Blank Label</text></navLabel>
       <content src="chapter7.xhtml"/>
     </navPoint>
     <navPoint id="nav8" playOrder="9">
+      <navLabel><text>Chapter Eight &#8212; The Window</text></navLabel>
+      <content src="chapter8.xhtml"/>
+    </navPoint>
+    <navPoint id="nav9" playOrder="10">
       <navLabel><text>Epilogue &#8212; The Sign in the Window</text></navLabel>
       <content src="epilogue.xhtml"/>
     </navPoint>
