@@ -13,32 +13,36 @@
       <content src="title.xhtml"/>
     </navPoint>
     <navPoint id="nav1" playOrder="2">
-      <navLabel><text>Chapter One &#8212; The Type Tester and the Twilight Voyage</text></navLabel>
+      <navLabel><text>Chapter One &#8212; Room to Breathe</text></navLabel>
       <content src="chapter1.xhtml"/>
     </navPoint>
     <navPoint id="nav2" playOrder="3">
-      <navLabel><text>Chapter Two &#8212; The Mirror Letters</text></navLabel>
+      <navLabel><text>Chapter Two &#8212; A Question of Direction</text></navLabel>
       <content src="chapter2.xhtml"/>
     </navPoint>
     <navPoint id="nav3" playOrder="4">
-      <navLabel><text>Chapter Three &#8212; A Long Walk Through Long Sentences</text></navLabel>
+      <navLabel><text>Chapter Three &#8212; Coming Up for Air</text></navLabel>
       <content src="chapter3.xhtml"/>
     </navPoint>
     <navPoint id="nav4" playOrder="5">
-      <navLabel><text>Chapter Four &#8212; Numbers, Dates, and Other Numerals</text></navLabel>
+      <navLabel><text>Chapter Four &#8212; A Decimal Point Misplaced</text></navLabel>
       <content src="chapter4.xhtml"/>
     </navPoint>
     <navPoint id="nav5" playOrder="6">
-      <navLabel><text>Chapter Five &#8212; Foreign Tongues</text></navLabel>
+      <navLabel><text>Chapter Five &#8212; The Dot Above the J</text></navLabel>
       <content src="chapter5.xhtml"/>
     </navPoint>
     <navPoint id="nav6" playOrder="7">
-      <navLabel><text>Chapter Six &#8212; Poems and Whitespace</text></navLabel>
+      <navLabel><text>Chapter Six &#8212; The Breath Between</text></navLabel>
       <content src="chapter6.xhtml"/>
     </navPoint>
     <navPoint id="nav7" playOrder="8">
-      <navLabel><text>Chapter Seven &#8212; A Conversation at the Window</text></navLabel>
+      <navLabel><text>Chapter Seven &#8212; The Window</text></navLabel>
       <content src="chapter7.xhtml"/>
+    </navPoint>
+    <navPoint id="nav8" playOrder="9">
+      <navLabel><text>Epilogue &#8212; The Sign in the Window</text></navLabel>
+      <content src="epilogue.xhtml"/>
     </navPoint>
   </navMap>
 </ncx>
