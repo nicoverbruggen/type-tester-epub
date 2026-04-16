@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148mm"
+   height="210mm"
+   viewBox="0 0 559.37006 793.70081"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="cover.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0218605"
+     inkscape:cx="184.95675"
+     inkscape:cy="384.10331"
+     inkscape:window-width="2560"
+     inkscape:window-height="1350"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="40.134826"
+       y="102.413"
+       width="95.836872"
+       height="33.420966"
+       id="rect2" />
+    <rect
+       x="40.134827"
+       y="102.413"
+       width="76.779305"
+       height="154.27773"
+       id="rect2-7" />
+    <rect
+       x="40.134827"
+       y="102.413"
+       width="76.779305"
+       height="154.27773"
+       id="rect2-7-7" />
+    <rect
+       x="40.134827"
+       y="102.413"
+       width="70.715223"
+       height="8.0659746"
+       id="rect2-7-7-3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#80581c;stroke:#ffffff;stroke-width:0.64252"
+       id="rect1"
+       width="559.37006"
+       height="793.70081"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       id="text1"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.4931px;font-family:Readerly;-inkscape-font-specification:'Readerly, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.64252"
+       transform="matrix(6.1620056,0,0,6.1620056,-187.31671,-500.71261)"><tspan
+         x="40.134766"
+         y="113.96823"
+         id="tspan5"><tspan
+           style="font-weight:bold;-inkscape-font-specification:'Readerly Bold Italic'"
+           id="tspan1">type </tspan><tspan
+           style="font-style:normal;font-weight:bold;-inkscape-font-specification:'Readerly Bold'"
+           id="tspan4">tester</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1-1-3"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.19311px;font-family:Readerly;-inkscape-font-specification:'Readerly, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-7-7);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.64252"
+       transform="matrix(6.1620056,0,0,6.1620056,-186.78345,-527.85683)"><tspan
+         x="40.134766"
+         y="107.21574"
+         id="tspan7"><tspan
+           style="font-style:normal;-inkscape-font-specification:Readerly"
+           id="tspan6">the delightful</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1-1-3-8"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.76035px;font-family:Readerly;-inkscape-font-specification:'Readerly, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-7-7-3);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.64252"
+       transform="matrix(6.1620056,0,0,6.1620056,-182.94325,77.267177)"
+       x="35.357613"
+       y="0"><tspan
+         x="42.89451"
+         y="106.81543"
+         id="tspan9"><tspan
+           style="-inkscape-font-specification:'Readerly Italic'"
+           id="tspan8">intended for testing purposes</tspan></tspan></text>
+  </g>
+</svg>

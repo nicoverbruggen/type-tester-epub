@@ -1,0 +1,49 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install kepubify
+        run: |
+          curl -fsSL -o /usr/local/bin/kepubify \
+            https://github.com/pgaskin/kepubify/releases/latest/download/kepubify-linux-64bit
+          chmod +x /usr/local/bin/kepubify
+          kepubify --version
+
+      - name: Install epubcheck
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends epubcheck
+
+      - name: Build EPUB and KEPUB
+        run: ./build.sh
+
+      - name: Validate EPUB
+        run: epubcheck typetester.epub
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ebooks
+          path: |
+            typetester.epub
+            typetester.kepub.epub
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            typetester.epub
+            typetester.kepub.epub
+          generate_release_notes: true

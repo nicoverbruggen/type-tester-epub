@@ -1,0 +1,67 @@
+body { font-family: serif; line-height: 1.55; }
+
+h1 {
+  font-size: 1.6em; font-weight: bold; line-height: 1.15;
+  margin: 0.4em 0 1em;
+  page-break-before: always; break-before: page;
+}
+h2 { font-size: 1.2em; font-weight: bold; margin: 1.6em 0 0.6em; }
+h3 { font-size: 1em; font-weight: bold; margin: 1.2em 0 0.4em; }
+
+.chapter-num {
+  font-size: 0.7em; letter-spacing: 0.25em; text-transform: uppercase;
+  page-break-before: always; break-before: page;
+}
+
+p { margin: 0 0 1em; text-align: left; hyphens: auto; }
+
+p.lead::first-letter {
+  font-size: 3em; float: left; line-height: 0.9;
+  padding: 0.1em 0.2em 0 0; font-weight: bold;
+}
+
+blockquote {
+  margin: 1.2em 1.2em; font-style: italic;
+  border-left: 3px solid #888; padding-left: 0.8em;
+}
+em { font-style: italic; }
+strong { font-weight: bold; }
+
+.pair-test { font-size: 1.2em; line-height: 1.6; }
+.pair-test span { display: inline-block; margin: 0 0.7em 0.3em 0; }
+
+.kern-grid { margin-top: 1em; }
+.kern-group { border-top: 1px solid #888; padding-top: 0.5em; margin-bottom: 1em; }
+.kern-label {
+  font-size: 0.7em; letter-spacing: 0.1em; text-transform: uppercase;
+  margin-bottom: 0.4em; font-weight: bold;
+}
+.kern-row { font-size: 1.1em; line-height: 1.45; }
+
+.footer-meta {
+  margin-top: 2em; font-size: 0.85em; text-align: center;
+  border-top: 1px solid #888; padding-top: 1em;
+}
+
+.title-page { text-align: center; padding: 4em 1em; }
+.title-block { margin-top: 6em; }
+.book-title {
+  font-size: 2.4em; font-weight: bold; line-height: 1.1;
+  margin: 0 0 0.2em; page-break-before: avoid;
+}
+.book-subtitle { font-size: 1.2em; font-style: italic; margin: 0 0 4em; }
+.byline { font-size: 1em; margin: 0 0 0.4em; }
+.imprint {
+  font-size: 0.8em; letter-spacing: 0.15em; text-transform: uppercase;
+  margin-top: 6em;
+}
+.licence-note { font-size: 0.75em; font-style: italic; margin-top: 1.2em; }
+
+.poem { margin: 0 0 1.6em 1.2em; }
+.poem.centred { text-align: center; margin-left: 0; }
+.poem .line { margin: 0; text-align: left; text-indent: 0; hyphens: none; }
+.poem.centred .line { text-align: center; }
+.poem-title {
+  font-size: 1em; font-style: italic; font-weight: normal;
+  margin: 1.6em 0 0.6em; page-break-after: avoid;
+}
