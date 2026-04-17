@@ -1,16 +1,25 @@
 # Trevelyan's Type Tester
 
-`Trevelyan's Type Tester` is a short typographic novella set at Trevelyan & Co., where Tanya designs typefaces, sets books, and reads the occasional manuscript that matters. What began as an EPUB test book gradually became a quiet narrative about readability, judgment, and the space between.
+<p align="center">
+  <img src="src/OEBPS/cover.png" alt="Cover of Trevelyan's Type Tester" width="320" />
+</p>
 
-## Project Layout
+**Trevelyan's Type Tester** is a short typographic novella set at Trevelyan & Co., where Tanya designs typefaces, sets books, and reads the occasional manuscript that matters. What began as an EPUB test book gradually became a quiet narrative about readability, judgment, spacing, and the mechanics of reading well.
 
-- `src/` contains the EPUB source package.
-- `src/OEBPS/` contains the XHTML chapters, metadata, navigation documents, stylesheet, and embedded cover image.
-- `cover.svg` is the editable cover source.
-- `src/OEBPS/cover.png` is the rasterized cover image used by the EPUB.
-- `build.sh` builds both the EPUB and, when `kepubify` is installed, a Kobo-friendly KEPUB variant.
+## What's in this repo?
 
-## Building
+### The pipeline
+
+This repository holds the editable source for the book, plus the small build pipeline that produces two downloadable versions of the book:
+
+- *Trevelyan's Type Tester.epub* (Regular epub)
+- *Trevelyan's Type Tester.kepub.epub* (Kobo epub)
+
+### Source package
+
+The source EPUB package lives under `src/`, with XHTML chapters, metadata, navigation documents, styles, cover assets, and embedded fonts all stored in the structure expected by the final book.
+
+## Build
 
 Run:
 
@@ -18,16 +27,21 @@ Run:
 ./build.sh
 ```
 
-This produces:
+The build script will:
 
-- `Trevelyan's Type Tester.epub`
-- `Trevelyan's Type Tester.kepub.epub`
+1. Build the EPUB package.
+2. Run `epubcheck` if it is installed.
+3. Generate a KEPUB variant if `kepubify` is installed.
 
-If `epubcheck` is installed, the build script will run it automatically. If `kepubify` is installed, the Kobo variant will be generated automatically.
+## Typography Notes
+
+The book currently relies on the reading system’s serif font rather than an embedded typeface. The source chapters also include a collected appendix of the typographic references, specimen grids, poem sample, and dialogue sample used throughout the novella.
+
+The point of this `epub` (or `kepub`) is that you can use it to validate fonts included or sideloaded on your device.
 
 ## Credits
 
-This edition is assembled by Nicholas Farbridge, an alias of Nico Verbruggen, with assistance from generative tools.
+This edition is assembled by Nico Verbruggen (an alias is used in the actual epub for my own amusement).
 
 ## License
 

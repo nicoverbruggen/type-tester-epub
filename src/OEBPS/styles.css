@@ -59,19 +59,73 @@ strong { font-weight: bold; }
   border-top: 1px solid #888; padding-top: 1em;
 }
 
-.title-page { text-align: center; padding: 4em 1em; }
-.title-block { margin-top: 6em; }
+.title-page {
+  text-align: center;
+  padding: 3em 1.2em 4em;
+}
+
+.title-page h1,
+.title-page p,
+.title-page div {
+  text-align: center;
+}
+
+.title-block {
+  margin: 0 auto;
+  max-width: 26em;
+  padding: 4.8em 1.5em 3.2em;
+}
+
+.title-kicker {
+  font-size: 0.72em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 3.2em;
+}
+
 .book-title {
-  font-size: 2.4em; font-weight: bold; line-height: 1.1;
-  margin: 0 0 0.2em; page-break-before: avoid;
+  font-size: 2.7em; font-weight: bold; line-height: 1.02;
+  margin: 0 0 0.35em; page-break-before: avoid;
 }
-.book-subtitle { font-size: 1.2em; font-style: italic; margin: 0 0 4em; }
-.byline { font-size: 1em; margin: 0 0 0.4em; }
+
+.book-title-break {
+  display: block;
+}
+
+.book-subtitle {
+  font-size: 1.05em;
+  font-style: italic;
+  margin: 0 0 1.4em;
+}
+
+.title-mark {
+  font-size: 0.9em;
+  letter-spacing: 0.35em;
+  margin: 0 0 1.8em 0.35em;
+}
+
+.byline {
+  font-size: 0.95em;
+  margin: 0 0 0.8em;
+}
+
+.edition-note {
+  font-size: 0.82em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 2em;
+}
+
 .imprint {
-  font-size: 0.8em; letter-spacing: 0.15em; text-transform: uppercase;
-  margin-top: 6em;
+  font-size: 0.78em; letter-spacing: 0.15em; text-transform: uppercase;
+  margin-top: 3.2em;
 }
-.licence-note { font-size: 0.75em; font-style: italic; margin-top: 1.2em; }
+
+.licence-note {
+  font-size: 0.75em;
+  font-style: italic;
+  margin-top: 0.35em;
+}
 
 .poem { margin: 0 0 1.6em 1.2em; }
 .poem.centred { text-align: center; margin-left: 0; }

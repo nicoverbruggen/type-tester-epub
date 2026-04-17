@@ -1,3 +1,4 @@
 *.epub
 *.kepub.epub
 *.zip
+.cache/

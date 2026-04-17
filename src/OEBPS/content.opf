@@ -5,7 +5,8 @@
     <dc:creator id="creator">Nicholas Farbridge</dc:creator>
     <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
     <dc:language>en</dc:language>
-    <dc:identifier id="BookId">urn:uuid:a8c0e7a2-typetester-2026</dc:identifier>
+    <dc:identifier id="BookId">urn:uuid:a8c0e7a2-7f3b-4f08-8a7b-4df0d9b65c8e</dc:identifier>
+    <dc:date>2026-04</dc:date>
     <dc:description>A short typographic novella set at Trevelyan &amp; Co., where Tanya designs typefaces, sets books, and reads the occasional manuscript that matters.</dc:description>
     <dc:rights>Released into the public domain by Nicholas Farbridge. This edition was assembled with assistance from generative tools.</dc:rights>
     <dc:subject>Typography</dc:subject>
