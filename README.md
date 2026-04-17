@@ -1,4 +1,4 @@
-# The Delightful Type Tester
+# Trevelyan's Type Tester
 
 ## What is this?
 

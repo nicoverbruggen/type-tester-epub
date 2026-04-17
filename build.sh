@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Build typetester.epub (and typetester.kepub.epub) from the contents of ./src
+# Build Trevelyan's Type Tester.epub (and .kepub.epub) from the contents of ./src
 set -euo pipefail
 
 cd "$(dirname "$0")"
 
-OUT="The Delightful Type Tester.epub"
-KEPUB="The Delightful Type Tester.kepub.epub"
+OUT="Trevelyan's Type Tester.epub"
+KEPUB="Trevelyan's Type Tester.kepub.epub"
 SRC="src"
 
 if [ ! -d "$SRC" ]; then
