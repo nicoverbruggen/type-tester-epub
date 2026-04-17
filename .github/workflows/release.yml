@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  EPUB_FILE: Trevelyan's Type Tester.epub
+  KEPUB_FILE: Trevelyan's Type Tester.kepub.epub
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,21 +33,21 @@ jobs:
         run: ./build.sh
 
       - name: Validate EPUB
-        run: epubcheck typetester.epub
+        run: epubcheck "$EPUB_FILE"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: ebooks
           path: |
-            typetester.epub
-            typetester.kepub.epub
+            ${{ env.EPUB_FILE }}
+            ${{ env.KEPUB_FILE }}
 
       - name: Create GitHub Release
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            typetester.epub
-            typetester.kepub.epub
+            ${{ env.EPUB_FILE }}
+            ${{ env.KEPUB_FILE }}
           generate_release_notes: true
