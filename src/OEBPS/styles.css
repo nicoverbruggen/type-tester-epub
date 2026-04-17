@@ -61,7 +61,7 @@ strong { font-weight: bold; }
 
 .title-page {
   text-align: center;
-  padding: 3em 1.2em 4em;
+  padding: 0 1.2em 4em;
 }
 
 .title-page h1,
@@ -73,7 +73,7 @@ strong { font-weight: bold; }
 .title-block {
   margin: 0 auto;
   max-width: 26em;
-  padding: 4.8em 1.5em 3.2em;
+  padding: 0 1.5em 3.2em;
 }
 
 .title-kicker {
