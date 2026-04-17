@@ -13,11 +13,27 @@ h3 { font-size: 1em; font-weight: bold; margin: 1.2em 0 0.4em; }
   page-break-before: always; break-before: page;
 }
 
-p { margin: 0 0 1em; text-align: left; hyphens: auto; }
+.chapter-num .num {
+  display: inline-block;
+  margin-left: 0.35em;
+}
 
-p.lead::first-letter {
-  font-size: 3em; float: left; line-height: 0.9;
-  padding: 0.1em 0.2em 0 0; font-weight: bold;
+/* Default paragraph styling for front matter and nested content. */
+p { margin: 0 0 0.7em; text-align: left; hyphens: auto; }
+
+/* Narrative paragraphs read better with a tighter vertical rhythm and first-line indent. */
+body:not(.title-page) > p {
+  margin: 0;
+  text-indent: 1.3em;
+}
+
+body:not(.title-page) > p.lead,
+body:not(.title-page) > h1 + p,
+body:not(.title-page) > h2 + p,
+body:not(.title-page) > h3 + p,
+body:not(.title-page) > blockquote + p,
+body:not(.title-page) > div + p {
+  text-indent: 0;
 }
 
 blockquote {
@@ -64,4 +80,91 @@ strong { font-weight: bold; }
 .poem-title {
   font-size: 1em; font-style: italic; font-weight: normal;
   margin: 1.6em 0 0.6em; page-break-after: avoid;
+}
+
+.appendix-page > p {
+  text-indent: 0;
+  margin: 0 0 0.8em;
+}
+
+.appendix-page h1 {
+  margin-bottom: 0.7em;
+}
+
+.appendix-page h2 {
+  font-size: 1.05em;
+  margin: 2em 0 0.5em;
+  padding-top: 0.7em;
+  border-top: 2px solid #666;
+}
+
+.appendix-page h3 {
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 1.2em 0 0.35em;
+}
+
+.appendix-page .pair-test,
+.appendix-page .kern-grid,
+.appendix-page blockquote,
+.appendix-page .poem {
+  margin: 0.6em 0 1.2em;
+  padding: 0.8em 0.9em;
+  border: 1px solid #999;
+}
+
+.appendix-page .pair-test {
+  font-size: 1.1em;
+  line-height: 1.55;
+}
+
+.appendix-page .pair-test span {
+  margin-bottom: 0.45em;
+}
+
+.appendix-page .kern-grid {
+  margin-top: 0.6em;
+}
+
+.appendix-page .kern-group:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.appendix-page .kern-label {
+  margin-bottom: 0.3em;
+}
+
+.appendix-page .kern-row {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.appendix-page blockquote {
+  font-style: normal;
+  border-left-width: 4px;
+}
+
+.appendix-page .poem {
+  margin-left: 0;
+}
+
+.appendix-page .poem .line {
+  text-indent: 0;
+}
+
+.appendix-page .dialogue-sample {
+  margin: 0.6em 0 1.2em;
+  padding: 0.8em 0.9em;
+  border: 1px solid #999;
+}
+
+.appendix-page .dialogue-sample p {
+  margin: 0 0 0.7em;
+  text-indent: 0;
+}
+
+.appendix-page .dialogue-sample p:last-child {
+  margin-bottom: 0;
 }

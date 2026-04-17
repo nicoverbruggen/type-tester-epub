@@ -13,7 +13,7 @@
       <content src="title.xhtml"/>
     </navPoint>
     <navPoint id="nav1" playOrder="2">
-      <navLabel><text>Prologue &#8212; Trevelyan &amp; Co.</text></navLabel>
+      <navLabel><text>Prologue &#8212; The Firm</text></navLabel>
       <content src="prologue.xhtml"/>
     </navPoint>
     <navPoint id="nav2" playOrder="3">
@@ -51,6 +51,10 @@
     <navPoint id="nav10" playOrder="11">
       <navLabel><text>Epilogue &#8212; The Sign in the Window</text></navLabel>
       <content src="epilogue.xhtml"/>
+    </navPoint>
+    <navPoint id="nav11" playOrder="12">
+      <navLabel><text>Appendix &#8212; Collected References</text></navLabel>
+      <content src="appendix.xhtml"/>
     </navPoint>
   </navMap>
 </ncx>

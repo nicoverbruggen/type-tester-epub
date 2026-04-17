@@ -29,6 +29,7 @@
     <item id="chapter7"     href="chapter7.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter8"     href="chapter8.xhtml" media-type="application/xhtml+xml"/>
     <item id="epilogue"     href="epilogue.xhtml" media-type="application/xhtml+xml"/>
+    <item id="appendix"     href="appendix.xhtml" media-type="application/xhtml+xml"/>
     <item id="css"          href="styles.css"     media-type="text/css"/>
   </manifest>
   <spine toc="ncx">
@@ -44,6 +45,7 @@
     <itemref idref="chapter7"/>
     <itemref idref="chapter8"/>
     <itemref idref="epilogue"/>
+    <itemref idref="appendix"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="cover.xhtml"/>
