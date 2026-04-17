@@ -33,7 +33,7 @@
       <content src="chapter4.xhtml"/>
     </navPoint>
     <navPoint id="nav6" playOrder="7">
-      <navLabel><text>Chapter Five &#8212; The Dot Above the J</text></navLabel>
+      <navLabel><text>Chapter Five &#8212; Foreign Tongues</text></navLabel>
       <content src="chapter5.xhtml"/>
     </navPoint>
     <navPoint id="nav7" playOrder="8">
