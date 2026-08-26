@@ -229,3 +229,16 @@ strong { font-weight: bold; }
 .appendix-page .dialogue-sample p:last-child {
   margin-bottom: 0;
 }
+
+.ornament { text-align: center; margin: 1.4em 0 1.2em; }
+.ornament img { width: 2.25em; height: auto; max-width: 100%; }
+span.big { font-size: 220%; }
+
+body.specimen .specimen-label {
+  font-size: 0.7em; font-weight: normal;
+  letter-spacing: 0.25em; text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 0.3em;
+  page-break-before: always; break-before: page;
+}
+body.specimen h1 { text-align: center; margin-top: 0.2em; }

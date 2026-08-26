@@ -11,7 +11,7 @@
     <dc:rights>Released into the public domain by Nicholas Farbridge. This edition was assembled with assistance from generative tools.</dc:rights>
     <dc:subject>Typography</dc:subject>
     <dc:subject>Reading</dc:subject>
-    <meta property="dcterms:modified">2026-04-17T00:00:00Z</meta>
+    <meta property="dcterms:modified">2026-08-26T00:00:00Z</meta>
     <meta name="cover" content="cover-image"/>
   </metadata>
   <manifest>
@@ -31,6 +31,8 @@
     <item id="chapter8"     href="chapter8.xhtml" media-type="application/xhtml+xml"/>
     <item id="epilogue"     href="epilogue.xhtml" media-type="application/xhtml+xml"/>
     <item id="appendix"     href="appendix.xhtml" media-type="application/xhtml+xml"/>
+    <item id="openers"      href="openers.xhtml"  media-type="application/xhtml+xml"/>
+    <item id="ornament"     href="ornament.png"   media-type="image/png"/>
     <item id="css"          href="styles.css"     media-type="text/css"/>
   </manifest>
   <spine toc="ncx">
@@ -47,6 +49,7 @@
     <itemref idref="chapter8"/>
     <itemref idref="epilogue"/>
     <itemref idref="appendix"/>
+    <itemref idref="openers"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="cover.xhtml"/>

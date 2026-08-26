@@ -56,5 +56,9 @@
       <navLabel><text>Appendix &#8212; Collected References</text></navLabel>
       <content src="appendix.xhtml"/>
     </navPoint>
+    <navPoint id="nav12" playOrder="13">
+      <navLabel><text>Specimen &#8212; Chapter Openers</text></navLabel>
+      <content src="openers.xhtml"/>
+    </navPoint>
   </navMap>
 </ncx>
