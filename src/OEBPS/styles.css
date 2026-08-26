@@ -22,17 +22,24 @@ h3 { font-size: 1em; font-weight: bold; margin: 1.2em 0 0.4em; }
 p { margin: 0 0 0.7em; text-align: left; hyphens: auto; }
 
 /* Narrative paragraphs read better with a tighter vertical rhythm and first-line indent. */
-body:not(.title-page) > p {
+body:not(.title-page) p {
   margin: 0;
   text-indent: 1.3em;
 }
 
-body:not(.title-page) > p.lead,
-body:not(.title-page) > h1 + p,
-body:not(.title-page) > h2 + p,
-body:not(.title-page) > h3 + p,
-body:not(.title-page) > blockquote + p,
-body:not(.title-page) > div + p {
+body:not(.title-page) .poem p,
+body:not(.title-page) .dialogue-sample p,
+body:not(.title-page) .title-block p {
+  margin: 0 0 0.7em;
+  text-indent: 0;
+}
+
+body:not(.title-page) p.lead,
+body:not(.title-page) h1 + p,
+body:not(.title-page) h2 + p,
+body:not(.title-page) h3 + p,
+body:not(.title-page) blockquote + p,
+body:not(.title-page) div + p {
   text-indent: 0;
 }
 
