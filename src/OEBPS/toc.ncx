@@ -52,9 +52,5 @@
       <navLabel><text>Epilogue &#8212; The Sign in the Window</text></navLabel>
       <content src="epilogue.xhtml"/>
     </navPoint>
-    <navPoint id="nav11" playOrder="12">
-      <navLabel><text>Appendix &#8212; Collected References</text></navLabel>
-      <content src="appendix.xhtml"/>
-    </navPoint>
   </navMap>
 </ncx>
