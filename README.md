@@ -37,6 +37,8 @@ The build script will:
 
 The book currently relies on the reading system’s serif font rather than an embedded typeface. The source chapters also include a collected appendix of the typographic references, specimen grids, poem sample, and dialogue sample used throughout the novella.
 
+Every chapter opens the same way: a centred title, a fleuron, a large first letter, and the first words in small capitals. Small capitals also appear in the prologue (the firm's name and the machines), in the kerning pairs of chapter one, beside the figures in chapter four, in the accents and ligatures of chapter five, against shrunken capitals in chapter seven, and on the sign in the epilogue. They are requested with `font-variant: small-caps`, and with `font-variant-caps: all-small-caps` for words typed in capitals, so a reading system shows whether it uses the font's own small caps, fakes them, or ignores the request.
+
 The point of this `epub` (or `kepub`) is that you can use it to validate fonts included or sideloaded on your device.
 
 ## Credits

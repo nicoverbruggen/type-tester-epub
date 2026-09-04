@@ -6,10 +6,12 @@
   <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-  <div class="chapter-num">Chapter <span class="num">Seven</span></div>
+  <h2 class="chapter-num">Chapter <span class="num">Seven</span></h2>
   <h1>A Blank Label</h1>
 
-  <p class="lead">The envelope from Mr. Trevelyan arrived: a single sheet, characteristically brief. <em>Waves on the Water</em> had been approved for the spring list. Tanya read it twice, set it down, and looked at the pencilled label in her file drawer for a moment. Then she picked up the telephone.</p>
+  <div class="ornament"><img src="ornament.png" alt="A printer&#8217;s fleuron"/></div>
+
+  <p class="lead"><span class="big">T</span><span class="sc">he envelope from Mr. Trevelyan</span> arrived: a single sheet, characteristically brief. <em>Waves on the Water</em> had been approved for the spring list. Tanya read it twice, set it down, and looked at the pencilled label in her file drawer for a moment. Then she picked up the telephone.</p>
 
   <p>Yvette answered on the third ring.</p>
 
@@ -49,9 +51,11 @@
 
   <p>The right tracking is invisible. The letters are present to each other without crowding. The words hold together without gripping. The page breathes, and the reader does not notice, which is the whole point.</p>
 
+  <p>Small capitals are the special case. A run of them wants a little more air than the lowercase and a little less than full capitals, and it wants letters that were made for the job. Most machines, asked for small capitals, do not have any, and rather than admit it they shrink the ordinary capitals and put them back. The height comes out right and the weight comes out wrong: the strokes go thin, and a name set that way looks faintly unwell beside the text around it. Tanya could pick out a faked small cap from across a room, and had once done so, in a bookshop, out loud.</p>
+
   <h2>Tracking in Practice</h2>
 
-  <p>The same text at three different settings. The words are identical in each case. What changes is the degree of effort required to read them, and the degree of trust the reader extends to the page.</p>
+  <p>The same text at three different settings. The words are identical in each case. What changes is the degree of effort required to read them, and the degree of trust the reader extends to the page. The last groups set the same words in capitals, in the typeface&#8217;s own small capitals, and in the shrunken imitation. The tell is weight.</p>
 
   <div class="kern-grid">
     <div class="kern-group"><div class="kern-label">Too tight</div>
@@ -72,10 +76,25 @@
       <div class="kern-row" style="letter-spacing:0.15em">The sea kept no record.</div>
     </div>
 
-    <div class="kern-group"><div class="kern-label">Uppercase &amp; small caps</div>
+    <div class="kern-group"><div class="kern-label">Capitals, tracked</div>
       <div class="kern-row" style="letter-spacing:0.08em">WAVES ON THE WATER</div>
       <div class="kern-row" style="letter-spacing:0.08em">SPRING LIST &#8212; APPROVED</div>
-      <div class="kern-row" style="letter-spacing:0.08em">TREVELYAN'S TYPE TESTER</div>
+    </div>
+
+    <div class="kern-group"><div class="kern-label">Small caps, the typeface&#8217;s own</div>
+      <div class="kern-row sc">Waves on the Water</div>
+      <div class="kern-row sc">Spring list &#8212; approved</div>
+      <div class="kern-row sc"><em>Waves on the Water</em> &#8212; <strong>Spring list</strong></div>
+    </div>
+
+    <div class="kern-group"><div class="kern-label">Small caps, faked from shrunken capitals</div>
+      <div class="kern-row">W<span class="fake-sc">AVES</span> <span class="fake-sc">ON THE</span> W<span class="fake-sc">ATER</span></div>
+      <div class="kern-row">S<span class="fake-sc">PRING LIST</span> &#8212; <span class="fake-sc">APPROVED</span></div>
+    </div>
+
+    <div class="kern-group"><div class="kern-label">Small caps, tracked</div>
+      <div class="kern-row sc" style="letter-spacing:0.08em">Waves on the Water</div>
+      <div class="kern-row sc" style="letter-spacing:0.08em">Trevelyan&#8217;s Type Tester</div>
     </div>
   </div>
 

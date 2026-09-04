@@ -2,14 +2,18 @@ body { font-family: serif; line-height: 1.55; }
 
 h1 {
   font-size: 1.6em; font-weight: bold; line-height: 1.15;
+  text-align: center;
   margin: 0.4em 0 1em;
   page-break-before: always; break-before: page;
 }
 h2 { font-size: 1.2em; font-weight: bold; margin: 1.6em 0 0.6em; }
 h3 { font-size: 1em; font-weight: bold; margin: 1.2em 0 0.4em; }
 
-.chapter-num {
-  font-size: 0.7em; letter-spacing: 0.25em; text-transform: uppercase;
+/* The chapter label is a heading, not a div: Kobo's renderer keeps
+   text-align on headings but not on plain divs. */
+h2.chapter-num {
+  font-size: 0.7em; font-weight: normal; letter-spacing: 0.25em; text-transform: uppercase;
+  text-align: center; margin: 0 0 0.3em;
   page-break-before: always; break-before: page;
 }
 
@@ -230,15 +234,17 @@ strong { font-weight: bold; }
   margin-bottom: 0;
 }
 
+/* Chapter openers: the fleuron sits under the title, the first letter is set
+   large, and the first words run in small capitals. */
 .ornament { text-align: center; margin: 1.4em 0 1.2em; }
 .ornament img { width: 2.25em; height: auto; max-width: 100%; }
 span.big { font-size: 220%; }
 
-body.specimen .specimen-label {
-  font-size: 0.7em; font-weight: normal;
-  letter-spacing: 0.25em; text-transform: uppercase;
-  text-align: center;
-  margin: 0 0 0.3em;
-  page-break-before: always; break-before: page;
-}
-body.specimen h1 { text-align: center; margin-top: 0.2em; }
+/* Small capitals. `.sc` is the ordinary request. `.sc-all` is for words typed
+   in capitals (machine names, ISBN) and asks for all-small-caps, so a reader
+   that lacks the property leaves them as capitals. `.fake-sc` is the wrong way,
+   shrunken capitals, kept in chapter seven for comparison. */
+.sc { font-variant: small-caps; }
+.sc-all { font-variant-caps: all-small-caps; }
+.fake-sc { font-size: 0.78em; }
+.sign { text-align: center; margin: 1.2em 0; letter-spacing: 0.1em; }

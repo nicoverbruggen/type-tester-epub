@@ -31,7 +31,6 @@
     <item id="chapter8"     href="chapter8.xhtml" media-type="application/xhtml+xml"/>
     <item id="epilogue"     href="epilogue.xhtml" media-type="application/xhtml+xml"/>
     <item id="appendix"     href="appendix.xhtml" media-type="application/xhtml+xml"/>
-    <item id="openers"      href="openers.xhtml"  media-type="application/xhtml+xml"/>
     <item id="ornament"     href="ornament.png"   media-type="image/png"/>
     <item id="css"          href="styles.css"     media-type="text/css"/>
   </manifest>
@@ -49,7 +48,6 @@
     <itemref idref="chapter8"/>
     <itemref idref="epilogue"/>
     <itemref idref="appendix"/>
-    <itemref idref="openers"/>
   </spine>
   <guide>
     <reference type="cover" title="Cover" href="cover.xhtml"/>
